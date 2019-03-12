@@ -11,6 +11,8 @@
 		9B21366C2238313C00F2C07B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B21366B2238313C00F2C07B /* ViewController.swift */; };
 		9B21366E2238313D00F2C07B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B21366D2238313D00F2C07B /* Assets.xcassets */; };
 		9B2136712238313D00F2C07B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B21366F2238313D00F2C07B /* Main.storyboard */; };
+		9B21367A2238332400F2C07B /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2136792238332400F2C07B /* GameOver.swift */; };
+		9B21367C2238337300F2C07B /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B21367B2238337300F2C07B /* WindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		9B2136702238313D00F2C07B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B2136722238313D00F2C07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B2136732238313D00F2C07B /* OddOneOut.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OddOneOut.entitlements; sourceTree = "<group>"; };
+		9B2136792238332400F2C07B /* GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		9B21367B2238337300F2C07B /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				9B21366F2238313D00F2C07B /* Main.storyboard */,
 				9B2136722238313D00F2C07B /* Info.plist */,
 				9B2136732238313D00F2C07B /* OddOneOut.entitlements */,
+				9B2136792238332400F2C07B /* GameOver.swift */,
+				9B21367B2238337300F2C07B /* WindowController.swift */,
 			);
 			path = OddOneOut;
 			sourceTree = "<group>";
@@ -133,6 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B21367A2238332400F2C07B /* GameOver.swift in Sources */,
+				9B21367C2238337300F2C07B /* WindowController.swift in Sources */,
 				9B21366C2238313C00F2C07B /* ViewController.swift in Sources */,
 				9B21366A2238313C00F2C07B /* AppDelegate.swift in Sources */,
 			);
